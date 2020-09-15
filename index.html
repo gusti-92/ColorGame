@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Colores</title>
+
+    <link rel="stylesheet"  href="styles/style.css">
+</head>
+<body>
+    <h1>El Gran <span id="colorDisplay"></span> Juego de Colores</h1>
+
+    <div id="stripe"><button id="botonReset" type="reset">Nuevos Colores</button><span id="message"></span>
+                     <button id="botonDificil" class="selected">Difícil</button>
+                     <button id="botonFacil" class="selected">Fácil</button>
+    </div>
+
+    
+    <div class="container">
+
+        <div onclick="esIgual(event);" class="square"></div>
+        <div onclick="esIgual(event);" class="square"></div>
+        <div onclick="esIgual(event);" class="square"></div>
+        <div onclick="esIgual(event);" class="square facil" id="facil1"></div>
+        <div onclick="esIgual(event);" class="square facil" id="facil2"></div>
+        <div onclick="esIgual(event);" class="square facil" id="facil3"></div>
+
+    </div><br>
+
+
+
+    <script src="javascript/script.js"></script>
+</body>
+
+<footer>Plataforma 5 - Gustavo </footer>
+    
+</html>

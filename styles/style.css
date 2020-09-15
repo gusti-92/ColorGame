@@ -1,0 +1,71 @@
+.square{
+    float: left;
+    width: 30%;
+    height: 0;
+    padding-bottom: 30%;
+    border-radius: 45%;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.container{
+
+    width: 600px;
+    margin: 0 auto;
+
+
+
+}
+
+
+body{
+
+    background-color: #a56161
+}
+
+h1{
+   text-align: center;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+
+#message{
+    color: black;
+
+}
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.selected{
+    background-color: rgb(146, 120, 241);
+}
+
+#colorDisplay{
+    text-transform: uppercase;
+
+}
+
+button{
+    height: 30px;
+    font-size: 23px;
+}
+
+#message{
+    font-size: 25px;
+    height: 28px;
+    font-family: 'Frijole', cursive;
+    margin-bottom: 50px;
+}
+
+footer{
+  
+    color: white;
+    font-size: 30px;
+    margin-top: 40%;
+    text-align: center;
+}
